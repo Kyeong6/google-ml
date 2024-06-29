@@ -6,7 +6,7 @@
 
 | Course                                                                                         | Syllabus                                                      |  Start  | Deadline |
 | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------- | ------------------- | ----------------- |
-| 1st course: Neural Networks and Deep Learning                                                  | Introduction to deep learning                                 | 7/1               | 7/12              |
+| 1st course: Neural Networks and Deep Learning                                                  | [Introduction to deep learning](https://github.com/Kyeong6/google-ml/blob/main/1st_course_Neural_Networks_and_Deep_Learning/Introduction_to_deep_learning/README.md)                                 | 7/1               | 7/12              |
 |                                                                                                | Neural Networks Basics                                        |                   |                   |
 |                                                                                                | Shallow neural networks                                       |                   |                   |
 |                                                                                                | Deep Neural Networks                                          |                   |                   |
