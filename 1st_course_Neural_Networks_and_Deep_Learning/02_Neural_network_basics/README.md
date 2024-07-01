@@ -1,12 +1,12 @@
 ### 출처
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/4e23506c-d637-42aa-9c40-4bff8c81ac7c/Untitled.png)
+![Untitled2](https://github.com/Kyeong6/google-ml/assets/100195725/a818aef2-d268-4d20-80e9-e0e27273562e)
 
 본 자료는 [Deeplearning.AI](http://Deeplearning.AI)에서 제공한 교육 자료입니다.
 
 ### 이진분류
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/abb12195-2ec4-4722-854b-f29a77e69d4a/Untitled.png)
+![Untitled](https://github.com/Kyeong6/google-ml/assets/100195725/5437fb5d-5336-405d-b6ac-636e46900e11)
 </br></br>
 
 **해당 강의 목표**
@@ -33,14 +33,14 @@ m개의 훈련예제가 있다면, for-loop를 사용하는 게 일반적, 이�
 
 **Notation**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/3a5f6677-d924-4fdb-ba55-d40630f8f2e8/Untitled.png)
+![image](https://github.com/Kyeong6/google-ml/assets/100195725/dc56de96-7969-4552-8bb9-24946562e340)
 
 간결한 표기법을 사용하면 행렬 X는 nx개의 특징벡터, m개의 train example이 존재하는 걸로 이해할 수 있다. Excel에서와 같이 행/열을 구조로 생각해보기.
 
 - X.shape = (nx, m)
 - Y.shape = (1, m)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/3cce8eaf-6b82-424b-8dcf-b4c18197b7a9/Untitled.png)
+![image](https://github.com/Kyeong6/google-ml/assets/100195725/ee16c4fe-0fdf-4427-b3fb-cb3e6b2308b3)
 </br></br>
 
 ### 로지스틱 회귀
@@ -57,7 +57,7 @@ m개의 훈련예제가 있다면, for-loop를 사용하는 게 일반적, 이�
 - W, b : 매개변수(매개변수에 관한 상세 정보는 추후 학습)
 - X : 입력
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/b178ef9d-e584-4dd2-b40a-76131903608c/Untitled.png)
+![스크린샷 2024-07-01 오후 3 19 09](https://github.com/Kyeong6/google-ml/assets/100195725/016f7b5f-5af4-4971-b09e-42858d08a8b1)
 
 결론적으로 Sigmoid는 0~1사이의 함수이므로, 값이 들어왔을 때 0~1사이의 값을 반환합니다. 이를 통해, **이진 분류**를 할 수 있는 것이다!
 </br></br>
@@ -66,7 +66,7 @@ m개의 훈련예제가 있다면, for-loop를 사용하는 게 일반적, 이�
 
 매개변수 W, b를 학습하여 $\hat{y}$이 y가 1일 가능성에 대한 좋은 추정치가 되도록 하는 것!
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/ea8a52c6-c042-4804-8913-8798e01d85f7/Untitled.png)
+![image](https://github.com/Kyeong6/google-ml/assets/100195725/a0364e26-564c-4efe-9b8e-603e5d7ac0b4)
 
 일반적으로 제곱오차를 로지스틱회귀에서는 사용하지 않는다라는 설명에 대한 이유를 찾아보았다.
 </br></br>
@@ -77,7 +77,7 @@ m개의 훈련예제가 있다면, for-loop를 사용하는 게 일반적, 이�
 
 시그모이드 함수에 비용함수를 평균 제곱오차로 하여 그래프를 그리면 다음과 같은 형태를 얻는다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/629e3855-f3b3-4f59-af20-3b4e2c83ca85/Untitled.png)
+![스크린샷 2024-07-01 오후 4 10 31](https://github.com/Kyeong6/google-ml/assets/100195725/620c2f85-494e-40b5-9a17-d415733b5aec)
 
 추후 학습 내용이지만, 경사 하강법을 사용하였을 때, 찾고자하는 최소값이 아닌 잘못된 최솟값을 얻을 수 있는 경우가 존재하기 때문이다. 이때 설명하는 개념이 **Local Minimum**과 **Global Minimum**이다.
 
@@ -91,7 +91,7 @@ m개의 훈련예제가 있다면, for-loop를 사용하는 게 일반적, 이�
 - y = 0 → y hat : small
 - y = 1 → y hat : large
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/70fbb63d-c3c7-4084-8d6b-9bf490e76139/Untitled.png)
+![image](https://github.com/Kyeong6/google-ml/assets/100195725/6a182601-a38f-4fab-a57b-8415eba24f00)
 </br></br>
 
 **Loss function과 Cost function의 차이점**
@@ -114,7 +114,7 @@ m개의 훈련예제가 있다면, for-loop를 사용하는 게 일반적, 이�
 
 결국, 손실 함수의 결과를 통해 이에 따른 매개변수 W, b가 얼마나 잘 수행되는 지 측정
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/15b893f1-7434-471e-90c2-697355c4064c/Untitled.png)
+![image](https://github.com/Kyeong6/google-ml/assets/100195725/c37a039b-a404-4e8c-8a2f-36c1bacf121b)
 
 ### 그라데이션 하강
 
@@ -131,7 +131,7 @@ m개의 훈련예제가 있다면, for-loop를 사용하는 게 일반적, 이�
 
 로지스틱 회귀 같은 경우 거의 모든 초기화(위치 설정) 방법을 사용해도 작동한다. 이는 2차원 평면으로 생각했을 때 로지스틱 회귀는 볼록함수이므로 어느 지점에 위치시켜도 최솟값을 갖는 점으로 이동하기 때문
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/27d3cec8-9d19-47c3-ae57-609324c8d82b/Untitled.png)
+![image](https://github.com/Kyeong6/google-ml/assets/100195725/10782e4e-a1f2-416e-ba2c-ecb19d5de699)
 </br></br>
 
 **경사하강법 수식**
@@ -163,7 +163,7 @@ $$
 
 ### 도함수(파생상품)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/cfedfa5d-3cca-4e88-9d36-f0afc5e68789/Untitled.png)
+![image](https://github.com/Kyeong6/google-ml/assets/100195725/985c52f8-e152-4fc7-9119-eb74343a044a)
 </br></br>
 
 **도함수**
@@ -184,16 +184,14 @@ $$
 
 ### 더 많은 도함수 예제
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/bd19347d-8966-4819-a7ac-b0592351e9a6/Untitled.png)
+![image](https://github.com/Kyeong6/google-ml/assets/100195725/243b461d-7207-4b48-ab4a-14aa23b5f3ca)
 
 $f(x)$가 어떤 형태이든지 $x$가 이동하면 $f(x)$가 **얼마만큼** 이동(상승 및 하강)할 것으로 예상되느냐에서 파악할 수 있다. 이때의 **얼마만큼**이 곧, **기울기**라고 할 수 있다.
 </br></br>
 
 ### 계산 그래프 및 계산그래프가 포함된 도함수
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/dd6fb107-429c-4eae-a099-30a896bae2f0/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/e79611e2-57e6-40fc-a077-a25ad6d288f7/Untitled.png)
+![image](https://github.com/Kyeong6/google-ml/assets/100195725/9ce5753e-03bf-4d79-b8c3-3e463ab16db6)
 </br></br>
 
 **Back propagation(역전파)**
@@ -223,7 +221,7 @@ J는 v에 변화량에 영향을 받고, v는 a의 변화량에 영향을 받는
 
 결국, 위의 식은 a가 변함에 따라 J가 얼마나 변하냐?라고 이해할 수 있는데, v가 매개체가 되어서 파악할 수 있다. 
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/0a6ed44b-9f40-497b-ad01-a7225f5183b9/Untitled.png)
+![image](https://github.com/Kyeong6/google-ml/assets/100195725/a46a3ed6-9a15-4d69-9175-34b541896b25)
 </br></br>
 
 **결론**
@@ -235,6 +233,6 @@ J는 v에 변화량에 영향을 받고, v는 a의 변화량에 영향을 받는
 
 ### 로지스틱 회귀 그라데이션 하강
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/83d4a6d6-1dcf-4a24-8239-cdac8b0a69d5/Untitled.png)
+![image](https://github.com/Kyeong6/google-ml/assets/100195725/89acc600-f9d1-4eb7-b472-888774e3c68d)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/0c79766f-e6e5-47fb-bb1f-6711656123dd/7bde560b-969f-466d-aa1b-721ce196320b/Untitled.png)
+![image](https://github.com/Kyeong6/google-ml/assets/100195725/1aedb0a7-1ffd-4f54-afae-8292ac2f3db0)
